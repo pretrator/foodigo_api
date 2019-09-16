@@ -1,12 +1,12 @@
 var mysql = require("mysql");
 
 /**var con = mysql.createConnection({
-	host: "uzzrest.cbmbpjnncgh2.ap-south-1.rds.amazonaws.com",
-	user: "apiaccess",
-	password: "apipasswdaccess",
-	database:"foodigo",
+	host: "#######.cbmbpjnncgh2.ap-south-1.rds.amazonaws.com",
+	user: "wronguser",
+	password: "wrongpasswd",
+	database:"wrongdatabase",
 	multipleStatements: true,
-	port:3306
+	port:"wrongport"
 });
 **/
 
@@ -25,7 +25,7 @@ var con  = mysql.createPool({
 	password: "wrongpassword",
 	database:"wrongdatabse",
 	multipleStatements: true,
-	port:3306
+	port:"wrongport"
 
 });
 
